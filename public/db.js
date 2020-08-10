@@ -50,7 +50,7 @@ function checkDatabase() {
 
             const store = transaction.objectStore("pending");
 
-            
+            store.clear();
         });
     }
 };
